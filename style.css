@@ -39,6 +39,7 @@ footer.page-footer{
 }
 
 .icon-delete{
+    cursor: pointer;
     color :rgb(231, 38, 38);
 }
 
