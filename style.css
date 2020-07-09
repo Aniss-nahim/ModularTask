@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+/* main content */
+body .main {
+    flex: 1 0 auto;
+    margin: 2rem 0;
+}
+
+#main{
+    max-width: 800px;
+    margin: auto;
+}
+
+footer.page-footer{
+    width: 100%;
+    position : relative;
+    bottom: 0;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label{
+    color: #4caf50 !important;
+}
+  /* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #4caf50 !important;
+    box-shadow: none !important;
+}
+
+.input-field .prefix.active {
+    color: #4caf50 !important;
+}
+
+#task-form .invalide{
+    color :rgb(231, 38, 38);
+}
+
+.icon-delete{
+    color :rgb(231, 38, 38);
+}
+
+#task-list-msg:nth-child(1){
+    margin : 5rem auto!important;
+}
+
+   
