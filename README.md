@@ -8,4 +8,4 @@ This will minimizes the use of global variables which can cause problems when co
 ## PubSub ( Publisher / Subscriber ) pattern
 Very useful for decoupling modules, and creates communication between mudules. Similer to the Observer pattern but with a little diffrence, in the Observer pattern the observer knows about the Subject ( Observable ), Whereas in pub-sub, the publishers and subscribers are loosely coupled, they are unaware of even the existence of each other.
 
-![Pub-Sub diagram](https://github.com/Aniss-nahim/ModularTask/blob/master/PubSub.png)
+![Pub-Sub diagram](https://github.com/Aniss-nahim/ModularTask/blob/main/PubSub.png)
